@@ -1,0 +1,72 @@
+.notifList {
+    padding: 20px;
+}
+  
+.notifListContainer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.notifCard {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+}
+  
+  .notifDetails {
+    flex-grow: 1;
+  }
+  
+  .acceptButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .acceptButton:hover {
+    background-color: #45a049;
+  }
+
+  .declineButton {
+    background-color: #ff5e5e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .declineButton:hover {
+    background-color: #e04f4f;
+  }
+
+  .adButtons {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+  }
+
+  .clearButton {
+    background-color: #3090e2;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .clearButton:hover {
+    background-color: #2677b4;
+  }

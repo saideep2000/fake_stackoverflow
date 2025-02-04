@@ -1,0 +1,12 @@
+.btns {
+  margin-right: 15%;
+  gap: 5px;
+}
+
+.question_list {
+  cursor: pointer;
+}
+
+.question_list:last-child {
+  border-bottom: #000000 1px solid;
+}

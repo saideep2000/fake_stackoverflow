@@ -1,0 +1,219 @@
+.userProfileInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid #3090e2;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  position: relative;
+}
+
+.profileHeader {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profilePicContainer,
+.saveCancel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.profilePic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #3090e2;
+}
+
+.profileDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profileDetails form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.profileDetails form input {
+  display: block;
+}
+
+.profileDetails h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.detail {
+  font-size: 16px;
+  color: #555;
+  margin-top: 5px;
+}
+
+.profileDetails .detail:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.editButton,
+.logoutButton {
+  background-color: #3090e2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.editButton:hover,
+.logoutButton:hover {
+  background-color: #2677b4;
+}
+
+.logoutButton {
+  position: absolute;
+  right: 20px;
+}
+
+.logoutButton:disabled {
+  background: #2677b4;
+}
+
+.addFriendButton {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.addFriendButton:hover {
+  background-color: #45a049;
+}
+
+.addFriendButton:disabled {
+  background-color: #327636cd;
+}
+
+.editIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #3090e2;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.editIcon:hover {
+  background-color: #2677b4;
+}
+
+.uploadContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.uploadContainer input,
+.uploadContainer button,
+.saveCancel button {
+  margin: 10px;
+}
+
+.uploadContainer button,
+input[type="file"]::file-selector-button,
+.saveCancel button,
+.togglePasswordButton {
+  background-color: #3090e2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  height: 100%;
+}
+
+.uploadContainer button:hover,
+.togglePasswordButton:hover {
+  background-color: #2677b4;
+}
+
+.input-text {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.input-text:focus {
+  border-color: #3090e2;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.passwordContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  width: 300px;
+}
+
+.passwordContainer button{
+  width: 80px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  pointer-events: all;
+}
+
+.userProfileInfoWrapper {
+  position: relative;
+  z-index: 1001;
+}
+
+body.editing {
+  pointer-events: none;
+}
+
+.userProfileInfo {
+  position: relative;
+  pointer-events: auto;
+}

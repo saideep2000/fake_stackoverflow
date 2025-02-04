@@ -1,0 +1,33 @@
+.sideBarNav {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  border-right: solid 2px;
+  padding: 4% 0 4% 0;
+  align-items: center;
+}
+
+.menu_button:first-child {
+  margin-top: 0;
+}
+
+.menu_button {
+  height: 40px;
+  width: 80%;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+  color: #3090e2;
+  padding: 0px 10px;
+}
+
+.menu_button:hover {
+  background-color: #308fe215;
+}
+
+.menu_selected,
+.menu_selected:hover {
+  background-color: #3090e2;
+  color: white;
+}

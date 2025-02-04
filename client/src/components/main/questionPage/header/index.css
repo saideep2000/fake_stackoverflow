@@ -1,0 +1,18 @@
+.btns {
+    margin-right: 15%;
+    gap: 5px;
+  }
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  gap: 20px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.question_count {
+  display: flex;
+  align-items: center;
+}

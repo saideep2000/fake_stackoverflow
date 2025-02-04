@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10%;
+    width: 100%;
+    background: #dddddd;
+}
+  
+.title {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 10%;
+    padding-left: 10%;
+    gap: 10px;
+}
+
+.profileTab {
+    border: 2px solid #3090e2;
+    border-radius: 8px;
+    background-color: white;
+    align-items: center;
+    color: black;
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.active {
+    background-color: #3090e2;
+    color: white;
+}
+
+.notifTab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.notifTab > svg {
+    color: red;
+    font-size: x-small;
+}
