@@ -12,6 +12,10 @@ FakeStackOverflow is a full-stack web application designed to emulate the functi
 - Get notifications for interactions on their posts and friend requests.
 - Maintain a friends list for easy access to discussions.
 
+## **🛠 Deployment Guide**
+The full deployment steps for FakeStackOverflow can be found in the guide below:  
+
+📖 **[Building a 3-Tier Architecture in Kubernetes](https://saideepsamineni.medium.com/building-a-3-tier-architecture-in-kubernetes-42f03e12bcad)**
 ## Features and Functionalities
 
 These are some sample pictures of the app features:
